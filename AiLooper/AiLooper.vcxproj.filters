@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="AiCore">
+      <UniqueIdentifier>{b13fb93e-8ec3-492c-bcb4-540ce8f3fdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AiRuntime">
+      <UniqueIdentifier>{44fe0378-ea21-41ef-bd50-641b8eb181bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AiLooper.h">
@@ -30,6 +36,12 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AiMemoryElement.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AiSoul.h">
+      <Filter>AiRuntime</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AiLooper.cpp">
@@ -40,6 +52,12 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AiMemoryElement.cpp">
+      <Filter>AiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AiSoul.cpp">
+      <Filter>AiRuntime</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
