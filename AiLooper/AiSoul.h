@@ -1,4 +1,9 @@
 #pragma once
+
+#include "AiEarPerception.h"
+#include "AiEyePerception.h"
+#include "AiMouthKinetic.h"
+
 class AiSoul
 {
 public:
@@ -14,12 +19,14 @@ public:
 
 private:
 	CRITICAL_SECTION gCrit;
+	SoulStateEnum sState;
 	CWinThread * SoilThread;
-	volatile SoulStateEnum sState;
 	void setSoulState(SoulStateEnum sse);
-
 	static UINT MainSoilRunningThread(LPVOID lpParam);
 
+	AiEarPerception earPerception;
+	AiEyePerception eyePerception;
+	AiMouthKinetic  mouthKinetic;
 
 
 public:

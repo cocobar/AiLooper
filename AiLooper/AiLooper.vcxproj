@@ -183,18 +183,30 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AiEarPerception.h" />
+    <ClInclude Include="AiEyePerception.h" />
+    <ClInclude Include="AiHippocampal.h" />
+    <ClInclude Include="AiKinetic.h" />
     <ClInclude Include="AiLooper.h" />
     <ClInclude Include="AiLooperDlg.h" />
     <ClInclude Include="AiMemoryElement.h" />
+    <ClInclude Include="AiMouthKinetic.h" />
+    <ClInclude Include="AiPerception.h" />
     <ClInclude Include="AiSoul.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AiEarPerception.cpp" />
+    <ClCompile Include="AiEyePerception.cpp" />
+    <ClCompile Include="AiHippocampal.cpp" />
+    <ClCompile Include="AiKinetic.cpp" />
     <ClCompile Include="AiLooper.cpp" />
     <ClCompile Include="AiLooperDlg.cpp" />
     <ClCompile Include="AiMemoryElement.cpp" />
+    <ClCompile Include="AiMouthKinetic.cpp" />
+    <ClCompile Include="AiPerception.cpp" />
     <ClCompile Include="AiSoul.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -42,6 +42,24 @@
     <ClInclude Include="AiSoul.h">
       <Filter>AiRuntime</Filter>
     </ClInclude>
+    <ClInclude Include="AiPerception.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AiHippocampal.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AiEarPerception.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AiEyePerception.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AiKinetic.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AiMouthKinetic.h">
+      <Filter>AiCore</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AiLooper.cpp">
@@ -58,6 +76,24 @@
     </ClCompile>
     <ClCompile Include="AiSoul.cpp">
       <Filter>AiRuntime</Filter>
+    </ClCompile>
+    <ClCompile Include="AiPerception.cpp">
+      <Filter>AiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AiHippocampal.cpp">
+      <Filter>AiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AiEarPerception.cpp">
+      <Filter>AiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AiEyePerception.cpp">
+      <Filter>AiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AiKinetic.cpp">
+      <Filter>AiCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AiMouthKinetic.cpp">
+      <Filter>AiCore</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
